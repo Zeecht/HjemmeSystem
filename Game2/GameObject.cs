@@ -16,8 +16,10 @@ namespace Game2
         private List<Component> components = new List<Component>();
         private Transform transform;
 
-        public Transform Transform { get => transform; }
+
         #endregion;
+
+        public Transform Transform { get => transform; }
 
         public GameObject()
         {
